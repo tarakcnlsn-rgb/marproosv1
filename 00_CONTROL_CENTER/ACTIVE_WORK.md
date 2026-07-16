@@ -8,27 +8,27 @@
 
 ## Current Focus
 
-**Phase:** Phase 0 — Repository Foundation
+**Phase:** Phase 1 — Project Instructions
 **Objective:** Draft, approve, and commit the 11 foundation files — governance + control center — in one atomic commit.
 
 ## Status
 
 | Item | Status |
 |---|---|
-| PROJECT_CONSTITUTION.md | Approved & ratified 2026-07-14 — ACTIVE at commit |
-| TOOL_ROLES.md | Approved 2026-07-14 — ready to commit |
-| APPROVAL_POLICY.md | Approved 2026-07-14 — ready to commit |
-| CHANGE_CONTROL.md | Approved 2026-07-14 — ready to commit |
-| AGENT_POLICY.md | Approved 2026-07-14 — ready to commit |
-| Control Center files (5) | Approved 2026-07-14 — ready to commit |
-| README.md rewrite | Approved 2026-07-14 — ready to commit |
-| Phase 0 commit | READY — awaiting Claude Code execution |
+| PROJECT_CONSTITUTION.md | COMMITTED ab507f1 |
+| TOOL_ROLES.md | COMMITTED ab507f1 |
+| APPROVAL_POLICY.md | COMMITTED ab507f1 |
+| CHANGE_CONTROL.md | COMMITTED ab507f1 |
+| AGENT_POLICY.md | COMMITTED ab507f1 |
+| Control Center files (5) | COMMITTED ab507f1 |
+| README.md rewrite | COMMITTED ab507f1 |
+| Phase 0 commit | COMMITTED ab507f1 |
 
 ## Blockers
 
-None. All 11 files approved; awaiting Claude Code execution of the Phase 0 build.
+None. Phase 0 committed and pushed (ab507f1); Phase 1 (CLAUDE.md draft) not yet started.
 
 ## Notes
 
-- All drafts are held locally by the owner until the single Phase 0 commit.
+- Phase 0 tree live on main as of 2026-07-14.
 - Owner decision recorded: 2026-07-13.

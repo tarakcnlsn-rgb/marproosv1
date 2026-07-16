@@ -8,11 +8,7 @@
 
 ## Next Actions
 
-1. **Owner → Claude Code:** Paste the final Phase 0 build prompt with all 11 approved file contents.
-2. **Claude Code:** Create folder skeleton + files; present `git status` change list; **wait** (Class B gate).
-3. **Owner:** Review change list; approve.
-4. **Claude Code:** Commit `governance: Phase 0 foundation [Ref: D-001]`, create tag `phase-0-ratification`, push commit and tag; report commit hash.
-5. **Claude:** Begin Phase 1 — draft `CLAUDE.md`.
+1. **Claude:** draft `00_GOVERNANCE/CLAUDE.md`.
 
 ## Parking Lot (not yet actionable)
 

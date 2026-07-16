@@ -20,6 +20,12 @@
 
 ## Log
 
+### 2026-07-14 — Claude Code + Owner — Phase 0 executed
+**Done:** Phase 0 committed and pushed. Commit ab507f1 (18 files), tag phase-0-ratification on remote. Follow-up commit fc51656 added .gitignore for OS artifacts; desktop.ini excluded from ratification commit via scoped add.
+**Changed:** Full Phase 0 tree live on main.
+**Exceptions:** Stray desktop.ini caught at the approval gate; resolved via scoped staging + gitignore.
+**Handoff:** Phase 0 COMPLETE. Begin Phase 1: CLAUDE.md.
+
 ### 2026-07-14 — Owner + Claude — Phase 0 approval & ratification
 **Done:** Owner approved all 11 Phase 0 files and decisions D-001, D-002, D-003. Constitution ratified (status ACTIVE, ratification block completed, effective 2026-07-14). All four governance policies flipped to ACTIVE. Diff-based review rule added to TOOL_ROLES.md §6 following a caught round-trip regression in DECISIONS.md.
 **Changed:** All 11 files finalized locally; repo unchanged pending Phase 0 commit.
