@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "character_id": "kaia_rose_marchetti",
+  "anchors": [
+    {"id":"ANCHOR_A_FACELOCK","filename":"Kaia_Anchor_A_FaceLock_MASTER_FINAL.png","role":"highest face identity authority","default_weight":1.0},
+    {"id":"ANCHOR_B_HAIRLOCK","filename":"Kaia_Anchor_B_HairLock_MASTER_FINAL.png","role":"hair length, density, color, and mass authority","default_weight":0.9},
+    {"id":"ANCHOR_C_REALISM","filename":"Kaia_Anchor_C_Balance_MASTER_FINAL.png","role":"overall realism, skin, lighting, and body balance","default_weight":0.8},
+    {"id":"ANCHOR_D_HANDS","filename":"Kaia_Anchor_D_HandCanon_MASTER_FINAL.png","role":"left-thumb ring, manicure, and hand authority","default_weight":0.55}
+  ],
+  "default_strategy": {
+    "primary":"ANCHOR_C_REALISM",
+    "add_face_anchor_when":"face precision needs reinforcement",
+    "add_hair_anchor_when":"hair length, density, or color drifts",
+    "add_hand_anchor_when":"hands are prominent",
+    "maximum_recommended_anchors":2
+  }
+}
