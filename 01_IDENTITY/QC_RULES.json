@@ -1,0 +1,9 @@
+{
+  "schema_version":"1.0.0",
+  "allowed_results":["PASS","FAIL","NOT_VISIBLE","PENDING"],
+  "required_checks":["face_match","eye_color","skin_tone","skin_texture","hair_color","hair_length","hair_density","beauty_mark","no_freckles","body_proportions"],
+  "conditional_checks":{"left_thumb_ring":"required when left thumb is visible","hand_anatomy":"required when either hand is visible"},
+  "automatic_fail_terms":["hazel eyes","green eyes","blue eyes","gray eyes","black hair","short hair","thin hair","sparse hair","freckles","nose ring","plastic skin","duplicate beauty mark","extra fingers","missing fingers"],
+  "overall_pass_rule":"Every applicable required check must pass and no automatic-fail condition may be present.",
+  "manual_approval_required":true
+}
