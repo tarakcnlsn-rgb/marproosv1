@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0.0",
+  "character_id": "kaia_rose_marchetti",
+  "public_name": "Kaia Marchetti",
+  "status": "LOCKED",
+  "identity_change_allowed": false,
+  "age": 25,
+  "height": {
+    "imperial": "5 ft 8 in",
+    "inches": 68
+  },
+  "heritage": [
+    "Argentinian",
+    "Italian"
+  ],
+  "eyes": {
+    "color": "warm medium brown",
+    "hex": "#765842",
+    "forbidden": [
+      "hazel eyes",
+      "green eyes",
+      "blue eyes",
+      "gray eyes"
+    ]
+  },
+  "skin": {
+    "tone": "warm light-tan olive",
+    "undertone": "golden",
+    "hex": "#D2A679",
+    "texture": "realistic visible skin texture and pores",
+    "forbidden": [
+      "plastic skin",
+      "waxy skin",
+      "airbrushed skin"
+    ]
+  },
+  "hair": {
+    "base_color": "dark chocolate brown",
+    "base_hex": "#2A1F18",
+    "highlight_color": "subtle caramel ribbons",
+    "highlight_hex": "#A68D6F",
+    "length": "waist-length",
+    "density": "extremely thick and high-density",
+    "ends": "heavy blunt ends",
+    "forbidden": [
+      "black hair",
+      "short hair",
+      "thin hair",
+      "sparse hair"
+    ]
+  },
+  "face": {
+    "beauty_mark": {
+      "required": true,
+      "count": 1,
+      "location": "above upper lip on viewer's left",
+      "hex": "#231F1F"
+    }
+  },
+  "body": {
+    "frame": "very small feminine frame",
+    "build": "athletic slim feminine build",
+    "proportions": "realistic elongated model proportions",
+    "forbidden": [
+      "exaggerated hourglass",
+      "bodybuilder frame",
+      "heavy frame"
+    ]
+  },
+  "hands": {
+    "manicure": "short-to-medium soft-square French manicure",
+    "left_thumb_ring": {
+      "required_when_visible": true,
+      "material": "silver"
+    },
+    "forbidden": [
+      "stiletto nails",
+      "extra fingers",
+      "missing fingers"
+    ]
+  },
+  "global_exclusions": [
+    "freckles",
+    "nose ring",
+    "identity drift",
+    "duplicate beauty mark",
+    "relocated beauty mark",
+    "anime",
+    "cartoon",
+    "overprocessed HDR"
+  ]
+}
