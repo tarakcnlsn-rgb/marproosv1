@@ -1,0 +1,17 @@
+{
+  "schema_version":"1.0.0",
+  "job_id":"KAIA-YYYYMMDD-001",
+  "character_id":"kaia_rose_marchetti",
+  "status":"DRAFT",
+  "platform":"instagram",
+  "aspect_ratio":"9:16",
+  "content_category":"lifestyle",
+  "scene":{"location":"","time":"","lighting":"","action":""},
+  "wardrobe":{"description":"","accessories":""},
+  "hair_style":"structured waves worn down",
+  "expression":"calm and self-possessed",
+  "camera_profile":"iPhone 15 Pro RAW realism",
+  "anchor_ids":["ANCHOR_C_REALISM"],
+  "required_outputs":["hero"],
+  "manual_approval_required":true
+}
